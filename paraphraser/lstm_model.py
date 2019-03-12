@@ -3,7 +3,7 @@ import datetime as dt
 import sys
 import numpy as np
 from tensorflow.python.layers import core as layers_core
-from sample_embedding_helper import MySampleEmbeddingHelper
+from .sample_embedding_helper import MySampleEmbeddingHelper
 
 #def lstm_model(args, np_embeddings, start_id, end_id, mask_id, mode):
 def lstm_model(sess, mode, cell_hidden_size, np_embeddings, start_id, end_id, mask_id):

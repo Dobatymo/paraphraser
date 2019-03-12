@@ -1,6 +1,6 @@
 import numpy as np
 from keras.preprocessing.sequence import pad_sequences
-from embeddings import load_sentence_embeddings
+from .embeddings import load_sentence_embeddings
 from six.moves import xrange
 from six import iteritems
 from random import shuffle

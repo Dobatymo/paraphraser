@@ -5,9 +5,9 @@ import os
 import sys
 import datetime as dt
 from six.moves import xrange, input
-from lstm_model_beam import lstm_model
-from embeddings import load_sentence_embeddings
-from dataset_generator import ParaphraseDataset
+from .lstm_model_beam import lstm_model
+from .embeddings import load_sentence_embeddings
+from .dataset_generator import ParaphraseDataset
 from nltk.translate.bleu_score import sentence_bleu, corpus_bleu, SmoothingFunction
 from utils import dataset_config, debug_data, summarize_scalar
 import logging

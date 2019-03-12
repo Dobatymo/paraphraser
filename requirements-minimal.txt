@@ -1,0 +1,8 @@
+six
+keras
+spacy
+nltk
+tensorflow
+tensorflow-gpu
+gensim
+ferutility

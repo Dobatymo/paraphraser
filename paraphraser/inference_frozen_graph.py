@@ -1,6 +1,6 @@
 import tensorflow as tf
-from load_sent_embeddings import load_sentence_embeddings
-from preprocess_data import preprocess_batch
+from .load_sent_embeddings import load_sentence_embeddings
+from .preprocess_data import preprocess_batch
 from six.moves import input
 
 word_to_id, idx_to_word, embedding, start_id, end_id, unk_id  = load_sentence_embeddings()

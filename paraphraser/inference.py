@@ -1,8 +1,8 @@
 import tensorflow as tf
-from embeddings import load_sentence_embeddings
-from preprocess_data import preprocess_batch
+from .embeddings import load_sentence_embeddings
+from .preprocess_data import preprocess_batch
 from six.moves import input
-from lstm_model import lstm_model
+from .lstm_model import lstm_model
 import numpy as np
 from pprint import pprint as pp
 
